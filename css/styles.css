@@ -1,0 +1,132 @@
+/* ====================================
+               Paleta de colores          
+    =====================================*/
+    :root{
+        --azul-aside: #012e58;
+        --gris-titulo: #f5f5f5;
+        --azul-fuente: #20385a;
+    }
+
+    /* ====================================
+               Estilos generales           
+    =====================================*/
+    /*  Bordes maquetación*/
+    /*main, aside, div, section, ul, li, h2, h3, h4, img{
+        border: 1px solid;
+    }*/
+    
+    main{
+        margin: 0 auto;
+        display: flex;
+        width: 595.28px;
+        height: 841.89;
+        border: 2px solid;
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        margin:0;
+    }
+
+    aside{
+        width: 35%;
+        background-color: var(--azul-aside);
+        color: white;
+    }
+
+    section{
+        width: 65%;
+    }
+
+    aside, section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    h3 {
+        text-decoration: underline; 
+    }
+
+    h4 {
+        margin: 2px 0; 
+    }
+
+    .experiencia-fecha{
+        color: var(--azul-fuente);
+    }
+
+    ul{
+        padding-left: 12px;
+    }
+
+    .linea-corta {
+      width: 20%; 
+      height: 2px; 
+      background-color: black; 
+      margin: 10px auto; 
+    }
+
+    /* ====================================
+               Aside         
+    =====================================*/
+    .aside-habilidades{
+        width: 80%;
+    }
+
+    #fotoCV{
+        width: 50%;
+    }
+
+    #foto-perfil{
+        width: 100%;
+        border-radius: 15%;
+        border: 3px solid #FFFFFF;
+    }
+
+    .aside-idiomas, .aside-contact{
+        list-style-type: none;
+    }
+
+    .aside-container{
+        padding-left: 0;
+    }
+
+    /* ====================================
+                 Section           
+    =======================================*/
+    #portada, .section-resumen, .section-experiencia{
+        width: 90%;
+    }
+
+    #portada{
+        background-color: var(--gris-titulo);
+        text-align: center;
+    }
+
+    h1{
+        margin-top: 10px;
+    }
+
+    h2 {
+      color: #787878;     
+    }
+
+    .experiencia-fecha, .section-titulo-color{
+        color: var(--azul-fuente);
+        font-weight: 600;
+    }
+    
+    .experiencia-titulo{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        color: black;
+    }
+
+    .empresa {
+        font-weight: bold;
+        margin: 0; 
+    }
